@@ -9,9 +9,9 @@ print("Capturing 20 packets...\n")
 def analyze_packet(packet):
     try:
         print("Packet Structure:")
-
+s
         # IP version
-        if IP in packet:
+        sif IP in packet:
             print("IP Version      : IPv4")
             print("Source IP       :", packet[IP].src)
             print("Destination IP  :", packet[IP].dst)
